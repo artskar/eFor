@@ -7,8 +7,12 @@ import eFor from 'utils/eFor.js';
 
 let arr = [1,2,3];
 
-eFor(arr, function (item) {
-   // do something with item
+eFor(arr, function (pending, item) {
+   if (pending) {
+      // do something with item
+   } else {
+      // do something after cycle end
+   }
 });
 ```
 
