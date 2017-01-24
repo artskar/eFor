@@ -12,6 +12,4 @@ eFor(arr, function (item) {
 });
 ```
 
-p.s.: i'm tired to type `for (i = 0; i < arr.length; i++) {var item = arr[i]}`
-
 MIT.
